@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(#f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.heading {
+  color: #a35200;
+}
+
+.coin {
+  color: #334155;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.button {
+  background-color: #e2a139;
+  color: #a35200;
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+}
+
+.count-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  color: #475569;
+  margin-right: 10px;
+}
+
+.heads {
+  color: #475569;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tails {
+  color: #475569;
+  margin-left: 10px;
+}
